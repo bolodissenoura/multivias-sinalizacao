@@ -20,7 +20,7 @@ const Hero = () => {
                 href="https://google.com/"
                 target="_blank"
                 rel="noopener"
-                className="px-8 py-4 text-lg font-medium text-center text-white bg-indigo-600 rounded-md ">
+                className="px-8 py-4 text-lg font-medium text-center text-white bg-orange-600 rounded-md ">
                 Lorem ipsum dolor
               </a>
             </div>
@@ -43,7 +43,7 @@ const Hero = () => {
       <Container>
         <div className="flex flex-col justify-center">
           <div className="text-xl text-center text-gray-700 dark:text-white">
-            Lorem ipsum <span className="text-indigo-600">2000+</span>{" "}
+            Lorem ipsum <span className="text-orange-600">2000+</span>{" "}
             dolor sit amet consectetur.
           </div>
 
