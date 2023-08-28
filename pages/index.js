@@ -19,7 +19,7 @@ const Home = () => {
         <title>MultiVias</title>
         <meta
           name="description"
-          content="Nextly is a free landing page template built with next.js & Tailwind CSS"
+          content="emporibus eum nihil ea quaerat possimus enim harum, excepturi velit quisquam sequi repudiandae "
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -28,7 +28,7 @@ const Home = () => {
       <Hero />
       <SectionTitle
         pretitle="Lorem, ipsum "
-        title=" Why should you use this landing page">
+        title="Lorem, ipsum dolor sit amet consectetur adipisicing elit. ">
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
         Temporibus eum nihil ea quaerat possimus enim harum, excepturi velit quisquam sequi repudiandae consequatur 
         provident similique, esse dicta illo, in asperiores atque fugiat quia eius. 
@@ -36,16 +36,16 @@ const Home = () => {
       <Benefits data={benefitOne} />
       <Benefits imgPos="right" data={benefitTwo} />
       <SectionTitle
-        pretitle="Watch a video"
-        title="Learn how to fullfil your needs">
+        pretitle="Lorem, ipsum"
+        title="Lorem, ipsum dolor sit amet consectetur adipisicit">
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
         Temporibus eum nihil ea quaerat possimus enim harum, excepturi velit quisquam sequi repudiandae consequatur 
         provident similique, esse dicta illo, in asperiores atque fugiat quia eius. 
       </SectionTitle>
       <Video />
       <SectionTitle
-        pretitle="Testimonials"
-        title="Here's what our customers said">
+        pretitle="Lorem, ipsum"
+        title="Temporibus eum nihil ea quaerat possimus enim harum,">
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
         Temporibus eum nihil ea quaerat possimus enim harum, excepturi velit quisquam sequi repudiandae consequatu
       </SectionTitle>
