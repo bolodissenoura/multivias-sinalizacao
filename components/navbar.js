@@ -72,7 +72,7 @@ const Navbar = () => {
                     <Link
                       href="/"
                       className="w-full px-6 py-2 mt-3 text-center text-white bg-orange-600 rounded-md lg:ml-5">
-                      Get Started
+                      Soluções
                     </Link>
                   </>
                 </Disclosure.Panel>
@@ -100,7 +100,7 @@ const Navbar = () => {
           <Link
             href="/"
             className="px-6 py-2 text-white bg-orange-600 rounded-md md:ml-5">
-            Get Started
+            Soluções
           </Link>
 
           <ThemeChanger />
