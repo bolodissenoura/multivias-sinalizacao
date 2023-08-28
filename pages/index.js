@@ -50,7 +50,7 @@ const Home = () => {
         Temporibus eum nihil ea quaerat possimus enim harum, excepturi velit quisquam sequi repudiandae consequatu
       </SectionTitle>
       <Testimonials />
-      <SectionTitle pretitle="FAQ" title="Frequently Asked Questions">
+      <SectionTitle pretitle="FAQ" title="Perguntas Frequentes">
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
         Temporibus eum nihil ea quaerat possimus enim harum
       </SectionTitle>
