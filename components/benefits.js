@@ -14,7 +14,7 @@ const Benefits = (props) => {
           <div>
             <Image
               src={data.image}
-              width="521"
+              width="321"
               height="auto"
               alt="Benefits"
               className={"object-cover"}
