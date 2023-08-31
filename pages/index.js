@@ -11,8 +11,11 @@ import Testimonials from "../components/testimonials";
 import Cta from "../components/cta";
 import Faq from "../components/faq";
 import PopupWidget from "../components/popupWidget";
+import Carrosel from "../components/carrosel";
+
 
 const Home = () => {
+
   return (
     <>
       <Head>
@@ -22,17 +25,15 @@ const Home = () => {
           content="emporibus eum nihil ea quaerat possimus enim harum, excepturi velit quisquam sequi repudiandae "
         />
         <link rel="icon" href="/favicon.ico" />
+        <link
+          rel="stylesheet"
+          href="node_modules/keen-slider/keen-slider.min.css"
+        />
       </Head>
 
       <Navbar />
       <Hero />
-      <SectionTitle
-        pretitle="Lorem, ipsum "
-        title="Lorem, ipsum dolor sit amet consectetur adipisicing elit. ">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-        Temporibus eum nihil ea quaerat possimus enim harum, excepturi velit quisquam sequi repudiandae consequatur 
-        provident similique, esse dicta illo, in asperiores atque fugiat quia eius. 
-      </SectionTitle>
+      <Carrosel/>
       <Benefits data={benefitOne} />
       <Benefits imgPos="right" data={benefitTwo} />
       <SectionTitle
