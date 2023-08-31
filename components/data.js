@@ -3,12 +3,12 @@ import {
   ChartBarSquareIcon,
   CursorArrowRaysIcon,
   DevicePhoneMobileIcon,
-  AdjustmentsHorizontalIcon,
-  SunIcon,
+  AtSymbolIcon,
+  MapPinIcon,
 } from "@heroicons/react/24/solid";
 
 import benefitOneImg from "../public/img/placageral.png";
-import benefitTwoImg from "../public/img/benefit-two.png";
+import benefitTwoImg from "../public/img/qaEngennier.svg";
 
 const benefitOne = {
   title: "Lorem, ipsum dolor sit",
@@ -46,12 +46,12 @@ const benefitTwo = {
     {
       title: "Email",
       desc: "Email@Email.com.br",
-      icon: <AdjustmentsHorizontalIcon />,
+      icon: <AtSymbolIcon />,
     },
     {
       title: "Localização",
       desc: "Rua Fulador cilano de beutrano",
-      icon: <SunIcon />,
+      icon: <MapPinIcon />,
     },
   ],
 };
