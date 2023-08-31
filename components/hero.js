@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Container from "./container";
-import heroImg from "../public/img/hero.png";
+import heroImgNight from "../public/img/logo.svg";
+import heroImgLight from "../public/img/logo-white.svg";
 import SignImg from "../public/img/placageral.png";
 
 const Hero = () => {
@@ -30,13 +31,20 @@ const Hero = () => {
         <div className="flex items-center justify-center w-full lg:w-1/2">
           <div className="">
             <Image
-              src={heroImg}
+              src={heroImgLight}
               width="316"
               height="317"
               alt="Worker - Image by luis_molinero"
-              className={"object-cover"}
+              className="hidden dark:flex"
               loading="eager"
-              placeholder="blur"
+            />
+            <Image
+              src={heroImgNight}
+              width="316"
+              height="317"
+              alt="Worker - Image by luis_molinero"
+              className="dark:hidden"
+              loading="eager"
             />
           </div>
         </div>
