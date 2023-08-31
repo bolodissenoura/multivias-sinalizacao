@@ -34,23 +34,23 @@ const benefitOne = {
 };
 
 const benefitTwo = {
-  title: "Lorem, ipsum dolor sit",
-  desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit",
+  title: "Contato",
+  desc: "Descubra um novo mundo de possibilidades através dos nossos serviços! Estamos aqui para transformar suas necessidades em resultados incríveis. Junte-se a nós hoje e leve sua experiência para o próximo nível",
   image: benefitTwoImg,
   bullets: [
     {
-      title: "Lorem, ipsum dolor sit",
-      desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit",
+      title: "Telefone Celular",
+      desc: "55+ (12) 99999-9999",
       icon: <DevicePhoneMobileIcon />,
     },
     {
-      title: "Lorem, ipsum dolor sit",
-      desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit",
+      title: "Email",
+      desc: "Email@Email.com.br",
       icon: <AdjustmentsHorizontalIcon />,
     },
     {
-      title: "Lorem, ipsum dolor sit",
-      desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit",
+      title: "Localização",
+      desc: "Rua Fulador cilano de beutrano",
       icon: <SunIcon />,
     },
   ],

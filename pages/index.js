@@ -36,27 +36,6 @@ const Home = () => {
       <Carrosel/>
       <Benefits data={benefitOne} />
       <Benefits imgPos="right" data={benefitTwo} />
-      <SectionTitle
-        pretitle="Lorem, ipsum"
-        title="Lorem, ipsum dolor sit amet consectetur adipisicit">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-        Temporibus eum nihil ea quaerat possimus enim harum, excepturi velit quisquam sequi repudiandae consequatur 
-        provident similique, esse dicta illo, in asperiores atque fugiat quia eius. 
-      </SectionTitle>
-      <Video />
-      <SectionTitle
-        pretitle="Lorem, ipsum"
-        title="Temporibus eum nihil ea quaerat possimus enim harum,">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-        Temporibus eum nihil ea quaerat possimus enim harum, excepturi velit quisquam sequi repudiandae consequatu
-      </SectionTitle>
-      <Testimonials />
-      <SectionTitle pretitle="FAQ" title="Perguntas Frequentes">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-        Temporibus eum nihil ea quaerat possimus enim harum
-      </SectionTitle>
-      <Faq />
-      <Cta />
       <Footer />
       <PopupWidget />
     </>
