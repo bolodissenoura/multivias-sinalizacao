@@ -36,7 +36,7 @@ const Hero = () => {
           </div>
 
           <div className="flex flex-wrap justify-center gap-5 mt-10 md:justify-around">
-            <div className="pt-2 text-gray-400 dark:text-gray-400">
+            <div className="flex items-center pt-2 text-gray-400 dark:text-gray-400">
               <Image
                 src="/img/brands/tamoios.png"
                 alt="N"
@@ -44,7 +44,7 @@ const Hero = () => {
                 height="120"
               />
             </div>
-            <div className="pt-2 text-gray-400 dark:text-gray-400">
+            <div className="flex items-center pt-2 text-gray-400 dark:text-gray-400">
               <Image
                 src="/img/brands/eixo-sp.png"
                 alt="N"
@@ -52,7 +52,7 @@ const Hero = () => {
                 height="120"
               />
             </div>
-            <div className="pt-2 text-gray-400 dark:text-gray-400">
+            <div className="flex items-center pt-2 text-gray-400 dark:text-gray-400">
               <Image
                 src="/img/brands/dpbarros.png"
                 alt="N"
@@ -60,7 +60,7 @@ const Hero = () => {
                 height="120"
               />
             </div>
-            <div className="pt-2 text-gray-400 dark:text-gray-400">
+            <div className="flex items-center pt-2 text-gray-400 dark:text-gray-400">
               <Image
                 src="/img/brands/graal.png"
                 alt="N"
@@ -68,7 +68,7 @@ const Hero = () => {
                 height="120"
               />
             </div>
-            <div className="pt-2 text-gray-400 dark:text-gray-400">
+            <div className="flex items-center pt-2 text-gray-400 dark:text-gray-400">
               <Image
                 src="/img/brands/hidropav.png"
                 alt="N"
