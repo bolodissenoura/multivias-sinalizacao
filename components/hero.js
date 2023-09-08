@@ -46,7 +46,7 @@ const Hero = () => {
             </div>
             <div className="pt-2 text-gray-400 dark:text-gray-400">
               <Image
-                src="/img/brands/tamoios.png"
+                src="/img/brands/eixo-sp.png"
                 alt="N"
                 width="120"
                 height="120"
@@ -54,7 +54,7 @@ const Hero = () => {
             </div>
             <div className="pt-2 text-gray-400 dark:text-gray-400">
               <Image
-                src="/img/brands/tamoios.png"
+                src="/img/brands/dpbarros.png"
                 alt="N"
                 width="120"
                 height="120"
@@ -62,7 +62,7 @@ const Hero = () => {
             </div>
             <div className="pt-2 text-gray-400 dark:text-gray-400">
               <Image
-                src="/img/brands/tamoios.png"
+                src="/img/brands/graal.png"
                 alt="N"
                 width="120"
                 height="120"
@@ -70,7 +70,7 @@ const Hero = () => {
             </div>
             <div className="pt-2 text-gray-400 dark:text-gray-400">
               <Image
-                src="/img/brands/tamoios.png"
+                src="/img/brands/hidropav.png"
                 alt="N"
                 width="120"
                 height="120"

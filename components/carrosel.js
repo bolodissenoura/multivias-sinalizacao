@@ -2,10 +2,14 @@ import React from "react";
 import 'keen-slider/keen-slider.min.css'
 import { useKeenSlider } from 'keen-slider/react'
 import Image from "next/image";
-import carrosel1 from "../public/img/carrosel/carrosel1.jpg";
-import carrosel2 from "../public/img/carrosel/carrosel2.jpg";
-import carrosel3 from "../public/img/carrosel/carrosel3.jpg";
-import carrosel4 from "../public/img/carrosel/carrosel4.jpg";
+import carrosel1 from "../public/img/carrosel/carrosel1.png";
+import carrosel2 from "../public/img/carrosel/carrosel2.png";
+import carrosel3 from "../public/img/carrosel/carrosel3.png";
+import carrosel4 from "../public/img/carrosel/carrosel4.png";
+import carrosel5 from "../public/img/carrosel/carrosel5.png";
+import carrosel6 from "../public/img/carrosel/carrosel6.png";
+import carrosel7 from "../public/img/carrosel/carrosel7.png";
+import carrosel8 from "../public/img/carrosel/carrosel8.png";
 
 export default () => {
 
@@ -14,6 +18,10 @@ export default () => {
     carrosel2,
     carrosel3,
     carrosel4,
+    carrosel5,
+    carrosel6,
+    carrosel7,
+    carrosel8,
   ]
 
   const [sliderRef] = useKeenSlider({
