@@ -4,13 +4,13 @@ import Container from "./container";
 const Hero = () => {
   return (
     <>
-      <Container className="flex flex-wrap">
-        <div className="flex flex-col justify-center items-center w-full">
-          <div className="flex flex-col justify-center items-center max-w-2xl mb-8">
+      <div>
+        <div className="flex flex-col justify-center items-center w-full mt-28">
+          <div className="flex flex-col justify-center items-center max-w-2xl">
             <h1 className="text-4xl font-bold leading-snug tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white">
               Multivias Sinalização.
             </h1>
-            <p className="py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
+            <p className="py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300 text-center">
               Somos o caminho certo para deixar sua rodovia mais segura.
             </p>
             <div className="flex flex-col items-center space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
@@ -19,66 +19,63 @@ const Hero = () => {
                 target="_blank"
                 rel="noopener"
                 className="px-8 py-4 text-lg font-medium text-center text-white bg-orange-600 rounded-md ">
-                Conhecer soluções
+                Nossos serviços
               </a>
             </div>
           </div>
         </div>
-      </Container>
-      <Container>
-        <div className="flex flex-col justify-center">
-          <div className="text-xl text-center text-gray-700 dark:text-white">
-            As <span className="text-orange-600">grandes</span> estradas confiam
-            em nós.
+      </div>
+      <div className="flex flex-col justify-center dark:bg-neutral-800 p-8 mt-48">
+        <div className="text-xl text-center text-gray-700 dark:text-white">
+          As <span className="text-orange-600">grandes</span> estradas confiam
+          em nós.
+        </div>
+        <div className="text-xl text-center text-gray-700 dark:text-white">
+          Confira quem está com Multivias
+        </div>
+        <div className="flex flex-wrap justify-center gap-5 mt-10 md:justify-around">
+          <div className="flex items-center pt-2 text-gray-400 dark:text-gray-400">
+            <Image
+              src="/img/brands/tamoios.png"
+              alt="N"
+              width="120"
+              height="120"
+            />
           </div>
-          <div className="text-xl text-center text-gray-700 dark:text-white">
-            Confira quem está com Multivias
+          <div className="flex items-center pt-2 text-gray-400 dark:text-gray-400">
+            <Image
+              src="/img/brands/eixo-sp.png"
+              alt="N"
+              width="120"
+              height="120"
+            />
           </div>
-
-          <div className="flex flex-wrap justify-center gap-5 mt-10 md:justify-around">
-            <div className="flex items-center pt-2 text-gray-400 dark:text-gray-400">
-              <Image
-                src="/img/brands/tamoios.png"
-                alt="N"
-                width="120"
-                height="120"
-              />
-            </div>
-            <div className="flex items-center pt-2 text-gray-400 dark:text-gray-400">
-              <Image
-                src="/img/brands/eixo-sp.png"
-                alt="N"
-                width="120"
-                height="120"
-              />
-            </div>
-            <div className="flex items-center pt-2 text-gray-400 dark:text-gray-400">
-              <Image
-                src="/img/brands/dpbarros.png"
-                alt="N"
-                width="120"
-                height="120"
-              />
-            </div>
-            <div className="flex items-center pt-2 text-gray-400 dark:text-gray-400">
-              <Image
-                src="/img/brands/graal.png"
-                alt="N"
-                width="120"
-                height="120"
-              />
-            </div>
-            <div className="flex items-center pt-2 text-gray-400 dark:text-gray-400">
-              <Image
-                src="/img/brands/hidropav.png"
-                alt="N"
-                width="120"
-                height="120"
-              />
-            </div>
+          <div className="flex items-center pt-2 text-gray-400 dark:text-gray-400">
+            <Image
+              src="/img/brands/dpbarros.png"
+              alt="N"
+              width="120"
+              height="120"
+            />
+          </div>
+          <div className="flex items-center pt-2 text-gray-400 dark:text-gray-400">
+            <Image
+              src="/img/brands/graal.png"
+              alt="N"
+              width="120"
+              height="120"
+            />
+          </div>
+          <div className="flex items-center pt-2 text-gray-400 dark:text-gray-400">
+            <Image
+              src="/img/brands/hidropav.png"
+              alt="N"
+              width="120"
+              height="120"
+            />
           </div>
         </div>
-      </Container>
+      </div>
     </>
   );
 };

@@ -27,8 +27,8 @@ const Home = () => {
 
       <Navbar />
       <Hero />
-      <Carrosel/>
       <Benefits data={benefitOne} />
+      <Carrosel/>
       <Benefits imgPos="right" data={benefitTwo} />
       <Footer />    </>
   );
