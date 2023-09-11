@@ -1,19 +1,35 @@
+import { Resend } from "resend";
+import { NextResponse } from "next/server";
 
-import { Resend } from 'resend';
+const resend = new Resend('re_gtL4pWF3_LKTFJtxBe8xy6SEssFLetiaz');
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+export const sendEmail = async () => {
+  await resend.emails.send({
+    from: "Acme <onboarding@resend.dev>",
+    to: ["delivered@resend.dev"],
+    subject: "hello world",
+    text: "it works!",
+    headers: {
+      "X-Entity-Ref-ID": "123456789",
+    },
 
-export const sendEmail = async (req, res, email, subject, message) =>{
-  try {
-    const data = await resend.emails.send({
-      from: [email],
-      to: ['apolo1577@gmail.com'],
-      subject: [subject],
-      react: [message],
-    });
+    tags: [
+      {
+        name: "category",
+        value: "confirm_email",
+      },
+    ],
+  });
+  // try {
+  //   const data = await resend.emails.send({
+  //     from: [email],
+  //     to: ["apolo1577@gmail.com"],
+  //     subject: [subject],
+  //     react: [message],
+  //   });
 
-    res?.status(200).json(data);
-  } catch (error) {
-    res?.status(400).json(error);
-  }
-}
+  //   res?.status(200).json(data);
+  // } catch (error) {
+  //   res?.status(400).json(error);
+  // }
+};
