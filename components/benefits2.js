@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import Container from "./container";
 
-const Benefits = (props) => {
+const Benefits2 = (props) => {
   const { data } = props;
   return (
     <>
@@ -41,9 +41,9 @@ const Benefits = (props) => {
 
             <div className="w-full mt-5">
               {data.bullets.map((item, index) => (
-                <Benefit key={index} title={item.title} icon={item.icon}>
+                <Benefit2 key={index} title={item.title} icon={item.icon}>
                   {item.desc}
-                </Benefit>
+                </Benefit2>
               ))}
             </div>
           </div>
@@ -53,11 +53,11 @@ const Benefits = (props) => {
   );
 };
 
-function Benefit(props) {
+function Benefit2(props) {
   return (
     <>
       <div className="flex items-start mt-8 space-x-3">
-        <div className="flex items-center justify-center flex-shrink-0 mt-1 bg-yellow-500 rounded-md w-11 h-11 ">
+        <div className="flex items-center justify-center flex-shrink-0 mt-1 bg-orange-500 rounded-md w-11 h-11 ">
           {React.cloneElement(props.icon, {
             className: "w-7 h-7 text-orange-50",
           })}
@@ -75,4 +75,4 @@ function Benefit(props) {
   );
 }
 
-export default Benefits;
+export default Benefits2;

@@ -7,6 +7,7 @@ import Benefits from "../components/benefits";
 import Footer from "../components/footer";
 import Carrosel from "../components/carrosel";
 import Contact from "../components/contact";
+import Benefits2 from "../components/benefits2";
 
 
 const Home = () => {
@@ -30,7 +31,7 @@ const Home = () => {
       <Hero />
       <Benefits data={benefitOne} />
       <Carrosel/>
-      <Benefits imgPos="right" data={benefitTwo} />
+      <Benefits2 imgPos="right" data={benefitTwo} />
       <Contact/>
       <Footer />    </>
   );
