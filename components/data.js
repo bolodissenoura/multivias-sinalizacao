@@ -25,6 +25,11 @@ const benefitOne = {
       icon: <PaintBrushIcon />,
     },
     {
+      title: "Pintura Manual",
+      desc: "Melhore a segurança viária com nossos serviços de finalização vertical. Nossa equipe especializada implanta placas de sinalização de forma precisa e eficiente, contribuindo para uma condução mais segura nas rodovias.",
+      icon: <PaintBrushIcon />,
+    },
+    {
       title: "Implantação de Tachas",
       desc: "Otimize seu empreendimento com nosso serviço de implantação de tachas. Oferecemos soluções personalizadas para garantir a eficiência na gestão tributária, ajudando você a economizar tempo e recursos.",
       icon: <ChatBubbleBottomCenterIcon />,
