@@ -25,8 +25,8 @@ const benefitOne = {
       icon: <PaintBrushIcon />,
     },
     {
-      title: "Implantação de Taxas",
-      desc: "Otimize seu empreendimento com nosso serviço de implantação de taxas. Oferecemos soluções personalizadas para garantir a eficiência na gestão tributária, ajudando você a economizar tempo e recursos.",
+      title: "Implantação de Tachas",
+      desc: "Otimize seu empreendimento com nosso serviço de implantação de tachas. Oferecemos soluções personalizadas para garantir a eficiência na gestão tributária, ajudando você a economizar tempo e recursos.",
       icon: <ChatBubbleBottomCenterIcon />,
     },
     {
