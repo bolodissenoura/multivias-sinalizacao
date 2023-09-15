@@ -60,14 +60,6 @@ const Hero = () => {
           </div>
           <div className="flex items-center pt-2 text-gray-400 dark:text-gray-400">
             <Image
-              src="/img/brands/graal.png"
-              alt="N"
-              width="120"
-              height="120"
-            />
-          </div>
-          <div className="flex items-center pt-2 text-gray-400 dark:text-gray-400">
-            <Image
               src="/img/brands/hidropav.png"
               alt="N"
               width="120"
