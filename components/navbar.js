@@ -74,11 +74,11 @@ const Navbar = () => {
                         {item}
                       </Link>
                     ))}
-                    <Link
-                      href="/"
+                    <a
+                      href="#contato"
                       className="w-full px-6 py-2 mt-3 text-center text-white bg-orange-600 rounded-md lg:ml-5">
-                      Soluções
-                    </Link>
+                      Contato
+                    </a>
                   </>
                 </Disclosure.Panel>
               </div>
@@ -102,11 +102,11 @@ const Navbar = () => {
         </div> */}
 
         <div className="hidden mr-3 space-x-4 lg:flex nav__item">
-          <Link
-            href="/"
+          <a
+            href="#contato"
             className="px-6 py-2 text-white bg-orange-600 rounded-md md:ml-5">
-            Soluções
-          </Link>
+            Contato
+          </a>
 
           <ThemeChanger />
         </div>

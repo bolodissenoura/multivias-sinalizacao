@@ -29,8 +29,10 @@ const Home = () => {
 
       <Navbar />
       <Hero />
+      <div id="solucoes"/>
       <Benefits data={benefitOne} />
       <Carrosel/>
+      <div id="contato"/>
       <Benefits2 imgPos="right" data={benefitTwo} />
       <Contact/>
       <Footer />    </>
