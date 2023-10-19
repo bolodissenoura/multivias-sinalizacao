@@ -7,6 +7,7 @@ import Benefits from "../components/benefits";
 import Footer from "../components/footer";
 import Carrosel from "../components/carrosel";
 import Contact from "../components/contact";
+import Benefits2 from "../components/benefits2";
 
 
 const Home = () => {
@@ -28,11 +29,11 @@ const Home = () => {
 
       <Navbar />
       <Hero />
-      <div id="servicos"></div>
+      <div id="solucoes"/>
       <Benefits data={benefitOne} />
       <Carrosel/>
-      <Benefits imgPos="right" data={benefitTwo} />
-      <div id="Contatos"></div>
+      <div id="contato"/>
+      <Benefits2 imgPos="right" data={benefitTwo} />
       <Contact/>
       <Footer />    </>
   );
