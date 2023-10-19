@@ -13,20 +13,28 @@ const Hero = () => {
           <motion.div
             variants={scrollAnimation}
             className="flex flex-col justify-center items-center w-full mt-28">
-            <div className="flex flex-col justify-center items-center max-w-2xl">
-              <h1 className="text-4xl font-bold leading-snug tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white">
-                Multivias Sinalização.
-              </h1>
-              <p className="py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300 text-center">
-                Somos o caminho certo para deixar sua rodovia mais segura.
-              </p>
-              <div className="flex flex-col items-center space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
-                <a
-                  href="#solucoes"
-                  rel="noopener"
-                  className="px-8 py-4 text-lg font-medium text-center text-white bg-orange-600 rounded-md ">
-                  Nossos serviços
-                </a>
+            <div className="flex flex-col px-8 md:flex-row justify-center items-center gap-8">
+              <Image
+                src="/img/qaEngennier.svg"
+                alt="N"
+                width="520"
+                height="520"
+              />
+              <div className="flex flex-col justify-center items-center max-w-2xl">
+                <h1 className="text-4xl font-bold leading-snug tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white">
+                  Multivias Sinalização.
+                </h1>
+                <p className="py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300 text-center">
+                  Somos o caminho certo para deixar sua rodovia mais segura.
+                </p>
+                <div className="flex flex-col items-center space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
+                  <a
+                    href="#solucoes"
+                    rel="noopener"
+                    className="px-8 py-4 text-lg font-medium text-center text-white bg-orange-600 rounded-md ">
+                    Nossos serviços
+                  </a>
+                </div>
               </div>
             </div>
           </motion.div>
