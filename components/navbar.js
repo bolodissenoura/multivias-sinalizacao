@@ -4,12 +4,7 @@ import Image from "next/image";
 import { Disclosure } from "@headlessui/react";
 
 const Navbar = () => {
-  const navigation = [
-    "Parceiros",
-    "Serviços",
-    "Fotos",
-    "Contato",
-  ];
+  const navigation = ["Parceiros"];
 
   return (
     <div className="w-full">
@@ -69,7 +64,7 @@ const Navbar = () => {
                     {navigation.map((item, index) => (
                       <Link
                         key={index}
-                        href="/"
+                        href={`#${item}`}
                         className="w-full px-4 py-2 -ml-4 text-gray-500 rounded-md dark:text-gray-300 hover:text-orange-500 focus:text-orange-500 focus:bg-orange-100 dark:focus:bg-gray-800 focus:outline-none">
                         {item}
                       </Link>

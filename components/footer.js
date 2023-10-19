@@ -54,31 +54,26 @@ export default function Footer() {
           </div> */}
           <div className="">
             <div className="flex mt-5 space-x-5 text-gray-400 dark:text-gray-500">
-              <a href="https://facebook.com" target="_blank" rel="noopener">
+              <a
+                href="https://www.facebook.com/people/Multivias-Sinaliza%C3%A7%C3%A3o-Vi%C3%A1ria/100095202085912/?mibextid=LQQJ4d"
+                target="_blank"
+                rel="noopener">
                 <span className="sr-only">Facebook</span>
                 <Facebook />
               </a>
-              <a href="https://instagram.com" target="_blank" rel="noopener">
+              <a
+                href="https://instagram.com/multiviassinalizacao"
+                target="_blank"
+                rel="noopener">
                 <span className="sr-only">Instagram</span>
                 <Instagram />
-              </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener">
-                <span className="sr-only">Linkedin</span>
-                <Linkedin />
               </a>
             </div>
           </div>
         </div>
 
         <div className="my-10 text-sm text-center text-gray-600 dark:text-gray-400">
-          Copyright © {new Date().getFullYear()}. Made by MultiVias. Vídeo de{" "}
-          <a href="https://pixabay.com/pt/users/paulmaunders-7775256/?utm_source=link-attribution&utm_medium=referral&utm_campaign=video&utm_content=18083">
-            Paul Maunders
-          </a>{" "}
-          no{" "}
-          <a href="https://pixabay.com/pt//?utm_source=link-attribution&utm_medium=referral&utm_campaign=video&utm_content=18083">
-            Pixabay
-          </a>
+          Copyright © {new Date().getFullYear()}. Made by MultiVias.
         </div>
       </Container>
       {/* Do not remove this */}
